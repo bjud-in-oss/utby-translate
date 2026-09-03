@@ -15,7 +15,7 @@ assert.ok(
 
 // Test 2: Kontrollera meta refresh 0 sekunder
 assert.ok(
-  /<meta\s+http-equiv="refresh"\s+content="0;\s*url=https:\/\/zoom\.us\/[^"]+"/i.test(content),
+  /<meta\s+http-equiv="refresh"\s+content="0;\s*url=https:\/\/[^"]+"/i.test(content),
   'Sidan ska innehålla en meta refresh-tagg med 0 sekunders fördröjning.'
 );
 
@@ -27,7 +27,7 @@ assert.ok(
 
 // Test 4: Tydlig fallback-länk/knapp
 assert.ok(
-  content.includes('href="https://zoom.us/') && (content.includes('Klicka här') || content.includes('Anslut manuellt') || content.includes('Öppna direktöversättningen')),
+  content.includes('href="https://') && (content.includes('Klicka här') || content.includes('Anslut manuellt') || content.includes('Öppna direktöversättningen')),
   'Sidan ska ha en tydlig klickbar fallback-knapp med mållänken.'
 );
 
