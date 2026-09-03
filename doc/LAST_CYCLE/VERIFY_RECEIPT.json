@@ -1,0 +1,16 @@
+{
+  "hash": "7e5161f2013187b0beb345d560d547bfc9d321fb6e6483aa6576314a794fc058",
+  "timestamp": "2026-09-03T19:08:24.982Z",
+  "status": "PASSED",
+  "verified_files": [
+    "1a_orientera.md",
+    "1b_kartlagga.md",
+    "2a_forandra_utat_vision.md",
+    "2b_evaluera_yttre_anpassning.md",
+    "2e_forsoning_och_forlikning.md",
+    "2f_evaluera_syntes.md",
+    "3a_helhet_orkestrering_och_integration.md",
+    "3b_doman_kontrakt_och_fraktal_dokumentation.md",
+    "3c_fil_operativ_kallkodsspecifikation.md"
+  ]
+}
