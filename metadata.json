@@ -1,0 +1,6 @@
+{
+  "name": "Kyrka Hemma - Utby",
+  "description": "Delta i Utby Församlings möten hemifrån.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
